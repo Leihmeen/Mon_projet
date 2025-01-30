@@ -1,0 +1,41 @@
+VCS : système de gestion de version
+- centralisé
+- décentralisé
+
+git_smc.com
+sudo apt install git #commande linux
+
+
+git config --global user.name "nom"
+git config --global user.email "email"
+
+
+# Commandes de base en local:
+ - git init  "create a new git deposit"
+ - git add   "add all files"
+ - git  commit -m  "save a version of project"
+ - git status  "see the status of files"
+ - git log     "see the log"
+ 
+ #commande de base avec le dépot distant:
+  - git clone URL "clone a project"
+  - git remote add origin URL : "add a deposit"
+  - git push origin main  "send the modifications"
+  - git pull origin main  "collect the modifications"
+  
+ # Gestion des branches
+  - git branch "see branch"
+  - git checkout -b "create a new branch"
+  - git merge branche 
+  - git push 
+  
+ # Git advanced
+  - git rebase "reapply commits on a new base"
+  - git stash  "save modifications temporarily"
+  - git reset --hard HEAD~1 : annuler un commit
+  - git checkout HEAD~2 "allow to put the repertory in the status of -2 commit"
+  
+  
+ cd changer de direction
+ ls afficher les fichiers dans le dossier
+ cd.. revenir en arrière
