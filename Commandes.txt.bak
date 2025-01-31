@@ -34,3 +34,8 @@ git config --global user.email "email"
   - git stash  "save modifications temporarily"
   - git reset --hard HEAD~1 : annuler un commit
   - git checkout HEAD~2 "allow to put the repertory in the status of -2 commit"
+  
+  
+ cd changer de direction
+ ls afficher les fichiers dans le dossier
+ cd.. revenir en arrière

@@ -23,6 +23,7 @@ git config --global user.email "email"
   - git push origin main  "send the modifications"
   - git pull origin main  "collect the modifications"
   
+  
  # Gestion des branches
   - git branch "see branch"
   - git checkout -b "create a new branch"
@@ -38,4 +39,8 @@ git config --global user.email "email"
   
  cd changer de direction
  ls afficher les fichiers dans le dossier
- cd.. revenir en arrière
+ cd.. revenir en arrière 
+ 
+ git push --set-upstream  origin master
+ 
+ modifications
